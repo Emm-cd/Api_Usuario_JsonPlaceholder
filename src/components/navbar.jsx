@@ -17,10 +17,16 @@ export default function Navbar(){
           <Link className="nav-link" href="/chat">Chat</Link >
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/universidades">Universidades</Link >
+          <Link className="nav-link" href="/usuarios/mostrar">Usuarios</Link >
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/usuarios">Usuarios</Link >
+          <Link className="nav-link" href="/productos/mostrar">Productos</Link >
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" href="/ventas/mostrar">Ventas</Link >
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" href="/">Extra</Link >
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

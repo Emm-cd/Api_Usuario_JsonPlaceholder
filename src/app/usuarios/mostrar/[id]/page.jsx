@@ -6,7 +6,7 @@ async function getUni() {
     return universi.data;
 }
 
-export default async function Universidad({params}){
+export default async function Usuario({params}){
     const universidad = await getUni();
     return(
         <>
